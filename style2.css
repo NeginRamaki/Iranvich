@@ -1,0 +1,84 @@
+@font-face {
+    font-family: font3;
+    src: url(./fonts/IranNastaliq.ttf), url(./fonts/iran.otf);
+}
+
+    
+
+.div-w{
+    display: flex;
+    flex-direction: row;
+
+}
+.btn-primary{
+    text-decoration: none;
+}
+body{
+    direction: rtl;
+    overflow-x: hidden;
+    background: #544a7d;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffd452, #544a7d);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffd452, #544a7d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.p1{
+    text-align: center;
+    font-size: 40px;
+    font-family: font3;
+}
+.card{
+    background: #D3CCE3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border: 2px solid black;
+    border-radius: 12px;
+    margin-right: 55px;
+}
+.card-img-top{
+    margin-right: 25px;
+    margin-top: 10px;
+}
+.card-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+   margin-bottom: 20px;
+}
+.card-text{
+    padding: 10px;
+}
+button{
+    width: 70px;
+    margin-right: 37%;
+    margin-bottom: 12px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: black;
+    font-size: 20px;
+    background: #D3CCE3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+cursor: pointer;
+
+}
+button a{
+    text-decoration: none;
+}
+#img-omrostam{
+    width: 230px;
+    height: 230px;
+}
+#img-qamar{
+    width: 240px;
+    height: 220px;
+}
+#img-mri{
+    width: 230px;
+    height: 220px;
+}
+.sartitr{
+    width: 18rem;
+}
+
